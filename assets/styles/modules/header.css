@@ -1,0 +1,16 @@
+.header {
+    padding-inline: var(--container-offset);
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    background: black;
+    color:white ;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+}
+.header__navigation-menu{
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,32 @@
+::selection {
+
+    background-color: purple ;
+}
+
+html {
+    width: 100%;
+    background-color: var(--background);
+}
+
+html.is-lock {
+    overflow: hidden;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    line-height: 24px;
+
+    font-family: var(--ff-primary);
+    display: flex;
+    flex-direction: column;
+    /*background-color: var(--background);*/
+
+}
+
+@media screen and (max-width: 1140.98px) {
+    body {
+        font-size: 14px;
+        line-height: 1.15;
+    }
+}

@@ -1,0 +1,10 @@
+.intro {
+    padding: 50px;
+    background: whitesmoke;
+    height: 600px;
+}
+.intro-text {
+    padding-top: 150px;
+    padding-left: 40px;
+    font-size: 48px;
+}
