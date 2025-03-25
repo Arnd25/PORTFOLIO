@@ -1,5 +1,6 @@
 .container {
-    padding-inline: 100px;
+    max-width: 80%;
+    padding: 150px 100px;
 }
 
 .title-2xl {

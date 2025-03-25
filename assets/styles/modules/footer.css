@@ -1,0 +1,10 @@
+.footer {
+    background-color: black;
+}
+.footer__container {
+    padding-top: unset;
+}
+
+.footer__logo{
+    max-width: 80px;
+}

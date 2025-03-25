@@ -1,16 +1,17 @@
 .header {
-    padding-inline: var(--container-offset);
     display: flex;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 18px;
     background: black;
     color:white ;
-    height: 80px;
+    padding-inline: 20px;
     align-items: center;
     width: 100%;
-    border-radius: 20px;
 }
 .header__navigation-menu{
     display: flex;
-    gap: 20px;
+    gap: 30px;
+}
+.header__logo {
+    max-width: 80px;
 }
