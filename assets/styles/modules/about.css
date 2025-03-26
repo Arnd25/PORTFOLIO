@@ -1,5 +1,5 @@
 .about {
-    background-color: #1f1f1f;
+    background-color: var(--foreground);
 }
 .about__text {
     display: flex;

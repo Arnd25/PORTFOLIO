@@ -1,8 +1,9 @@
 .footer {
-    background-color: black;
+    background-color: #042905;
 }
 .footer__container {
     padding-inline: 100px;
+    padding-bottom: 150px;
 }
 
 .footer__logo{
@@ -16,13 +17,29 @@
     display: flex;
     justify-content: space-between;
 }
+.footer__feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
 .footer__feedback-form-input {
-    height: 30px;
-    padding-block: 20px;
+    border: none;
+    max-height: 100%;
+    padding: 16px;
     border-radius: var(--rounded-base);
 }
 .footer__feedback-form-input--message {
-    width: 500px;
-
+    max-width: 100%;
+}
+.footer__feedback-form-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px 24px;
+    text-align: center;
+    background: #04594a;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: var(--rounded-base);
 }

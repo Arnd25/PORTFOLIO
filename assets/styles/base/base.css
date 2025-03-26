@@ -1,6 +1,5 @@
 ::selection {
 
-
 }
 
 html {
@@ -16,11 +15,9 @@ body {
     width: 100%;
     min-height: 100vh;
     line-height: 24px;
-
     font-family: var(--ff-primary);
     display: flex;
     flex-direction: column;
-    /*background-color: var(--background);*/
 
 }
 
