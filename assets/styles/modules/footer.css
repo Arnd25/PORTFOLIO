@@ -2,9 +2,27 @@
     background-color: black;
 }
 .footer__container {
-    padding-top: unset;
+    padding-inline: 100px;
 }
 
 .footer__logo{
     max-width: 80px;
+}
+.footer__container{
+    color: white;
+
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__feedback-form-input {
+    height: 30px;
+    padding-block: 20px;
+    border-radius: var(--rounded-base);
+}
+.footer__feedback-form-input--message {
+    width: 500px;
+
 }

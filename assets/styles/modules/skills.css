@@ -1,0 +1,30 @@
+.skills__container {
+}
+
+.skills__wrapper {
+    background-color: #343434;
+    color: white;
+    padding: 50px;
+    max-width: 600px;
+    border-radius: var(--rounded-base);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.skills-list-item {
+    background-color: darkslategray;
+    padding: 20px;
+    border-radius: var(--rounded-base);
+}
+
+.skill-item-desc {
+    display: none;
+}
+.skills-list-item:is(.is-open) .skill-item-desc {
+    display: block;
+}

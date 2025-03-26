@@ -1,7 +1,8 @@
 .container {
-    max-width: 80%;
+    max-width: 100%;
     padding: 150px 100px;
 }
+
 
 .title-2xl {
     font-size: 64px;
@@ -35,7 +36,7 @@
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
-    color: var(--secondary);
+
     font-family: var(--ff-secondary);
 }
 
