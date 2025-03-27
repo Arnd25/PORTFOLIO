@@ -1,5 +1,5 @@
 .footer {
-    background-color: #042905;
+    background-color: #AAF0D1;
 }
 .footer__container {
     padding-inline: 100px;
@@ -10,8 +10,8 @@
     max-width: 80px;
 }
 .footer__container{
-    color: white;
-
+    color: #04594a;
+    font-weight: 600;
 }
 .footer-menu {
     display: flex;

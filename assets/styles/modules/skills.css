@@ -3,7 +3,7 @@
 }
 
 .skills__wrapper {
-    background-color: #343434;
+    background-color: var(--secondary-foreground);
     color: white;
     padding: 50px;
     max-width: 600px;
@@ -28,4 +28,11 @@
 }
 .skills-list-item:is(.is-open) .skill-item-desc {
     display: block;
+}
+
+.skills-list-item--blue {
+    background: #91c0b0;
+}
+.skills-list-item--cyan {
+    background: #17806D;
 }

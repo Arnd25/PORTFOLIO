@@ -4,14 +4,14 @@
     --ff-primary: "Inter", serif;
     --ff-secondary: "Oswald", serif;
 
-    --background: #fff;
-    --foreground: #575757;
+    --background: #9edb9a;
+    --foreground: #9edb9a;
     /* primary */
-    --primary: ;
+    --primary: #2da225 ;
     --primary-foreground: #fff;
     /* secondary */
-    --secondary: #2bc294;
-    --secondary-foreground: var(--gray);
+    --secondary: #20591c;
+    --secondary-foreground: #2cce73;
     /* muted */
     --muted: #343434;
     --muted-foreground: var(--gray);
