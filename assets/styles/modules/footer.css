@@ -2,8 +2,8 @@
     background-color: #AAF0D1;
 }
 .footer__container {
-    padding-inline: 100px;
-    padding-bottom: 150px;
+    padding: 20px 100px 150px;
+    font-size: 18px;
 }
 
 .footer__logo{
@@ -23,6 +23,32 @@
     gap: 15px;
 }
 
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer__navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer__feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer__contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer__navigation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .footer__feedback-form-input {
     border: none;
     max-height: 100%;
@@ -30,7 +56,8 @@
     border-radius: var(--rounded-base);
 }
 .footer__feedback-form-input--message {
-    max-width: 100%;
+    max-width: 256px;
+    width: 100%;
 }
 .footer__feedback-form-button {
     cursor: pointer;

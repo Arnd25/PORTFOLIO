@@ -1,0 +1,26 @@
+.contacts__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+.contacts-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contacts-desc {
+
+    max-width: 500px;
+}
+.contacts__links {
+    display: flex;
+    column-gap: 15px;
+}
+.contacts__links-item {
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    font-size: 30px;
+}
