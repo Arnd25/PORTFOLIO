@@ -1,5 +1,5 @@
 .footer {
-    background-color: #AAF0D1;
+    background-color: #1d361f;
 }
 .footer__container {
     padding: 20px 100px 150px;
@@ -10,7 +10,7 @@
     max-width: 80px;
 }
 .footer__container{
-    color: #04594a;
+    color: var(--secondary-foreground);
     font-weight: 600;
 }
 .footer-menu {
@@ -56,7 +56,7 @@
     border-radius: var(--rounded-base);
 }
 .footer__feedback-form-input--message {
-    max-width: 256px;
+
     width: 100%;
 }
 .footer__feedback-form-button {

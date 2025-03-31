@@ -5,13 +5,13 @@
     --ff-secondary: "Oswald", serif;
 
     --background: #9edb9a;
-    --foreground: #9edb9a;
+    --foreground: black;
     /* primary */
     --primary: #2da225 ;
     --primary-foreground: #fff;
     /* secondary */
     --secondary: #39a240;
-    --secondary-foreground: #2cce73;
+    --secondary-foreground: #08ffa4;
     /* muted */
     --muted: #343434;
     --muted-foreground: var(--gray);

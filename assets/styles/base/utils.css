@@ -27,8 +27,7 @@
     font-weight: 700;
     line-height: 40px;
     text-transform: uppercase;
-    color: var(--secondary);
-    font-family: var(--ff-secondary);
+    color: var(--secondary-foreground);
 }
 
 .title-md {
