@@ -1,6 +1,6 @@
 .road {
     padding: 30px;
-    background-color: #1f1f1f;
+    background-color: #0b3b2c;
 }
 .road__container {
     color: white;
@@ -10,17 +10,33 @@
     align-items: center;
 }
 .road-list {
-    display: flex;
-    border-bottom: 4px solid white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-bottom:4px solid white; ;
+}
+
+@media screen and (max-width: 768.98px) {
+    .road-list {
+        border-left: 4px solid white;
+        border-bottom: unset;
+        grid-template-columns: 1fr;
+    }
 }
 .road__list-item {
+    font-size: 19px;
     position: relative;
     margin: 18px;
-    padding: 10px;
+    padding: 15px;
     background: white;
     border-radius: var(--rounded-base);
     max-width: 400px;
     color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.road__item-title {
+    text-align: center;
 }
 
 .road__list-item::before {
@@ -32,4 +48,10 @@
     border-radius: 50%;
     bottom: -30px;
     left: 40%;
+}
+@media screen and (max-width: 768.98px) {
+    .road__list-item::before {
+        left: -30px;
+        bottom: 40%;
+    }
 }

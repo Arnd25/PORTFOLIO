@@ -1,5 +1,5 @@
 .footer {
-    background-color: #1d361f;
+    background-color: #081f09;
 }
 .footer__container {
     padding: 20px 100px 150px;
@@ -16,6 +16,13 @@
 .footer-menu {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 520.98px) {
+
 }
 .footer__feedback-form {
     display: flex;

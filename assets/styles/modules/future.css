@@ -9,6 +9,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+@media screen and (max-width: 768.98px) {
+    .future__grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 .future__grid-item{
     background-color: #1D334A;
     border-radius: var(--rounded-base);

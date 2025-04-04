@@ -17,7 +17,7 @@
               <img src="/assets/images/logo.svg" alt="">
           </a>
       </div>
-      <div class="header__navigation">
+      <nav class="header__navigation" data-menu>
           <menu class="header__navigation-menu">
               <li class="header__menu-item">
                   <a href="#about">Обо мне</a>
@@ -32,11 +32,14 @@
                   <a href="#future">Планы на будующее</a>
               </li>
               <li class="header__menu-item">
-                  <a href="#contacts
-">Контакты</a>
+                  <a href="#contacts">Контакты</a>
               </li>
           </menu>
-      </div>
+
+      </nav>
+      <button class="header__menu-burger" data-menu-toggler>
+          <i class="ri-menu-line"></i>
+      </button>
   </header>
   <section class="intro intro--section">
       <div class="intro__container container">
@@ -53,8 +56,8 @@
                 </div>
                 <div class="about__text-desc">
                     <p> Меня зовут Арсений, и я — студент группы СП-1-23. Мне нравится разбираться в коде, экспериментировать с дизайном и находить креативные решения.
-                        Мой путь в веб-разработке начался с любопытства и желания понять, как устроены сайты, которыми мы пользуемся каждый день.Я изучал основы HTML и CSS. С тех пор я работаю над созданием удобных, стильных и функциональных сайтов, изучаю современные технологии и стремлюсь делать каждый проект лучше предыдущего.
-                        Важно, чтобы сайт был не только красивым, но и понятным для пользователей, быстро загружался и хорошо работал на разных устройствах.Поэтому в своей работе я уделяю внимание удобству, визуальной эстетике и современным технологиям. Я стремлюсь к тому, чтобы каждая деталь в проекте выглядела гармонично и выполняла свою функцию.</p>
+                        Мой путь в веб-разработке начался с любопытства и желания понять, как устроены сайты, которыми мы пользуемся каждый день.Я изучал основы HTML и CSS. 
+                        Мне важно, чтобы сайт был не только красивым, но и понятным для пользователей, быстро загружался и хорошо работал на разных устройствах. Я стремлюсь к тому, чтобы каждая деталь в проекте выглядела гармонично и выполняла свою функцию.</p>
                 </div>
             </div>
         </div>
@@ -68,10 +71,10 @@
                 <ul class="skills-list">
                     <li class="skills-list-item skills-list-item--blue">
                         <div class = "skill-item-name">
-                            <h3>навык</h3>
+                            <h3>веб-разработка</h3>
                         </div>
                         <div class="skill-item-desc">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet corporis dolores ducimus eaque enim esse exercitationem, fuga laborum necessitatibus obcaecati odit quae temporibus voluptatum!</p>
+                            <p>Я изучаю HTML и CSS, осваиваю основы создания веб-страниц и адаптивной верстки. Также знакомлюсь с JavaScript, чтобы добавлять интерактивные элементы на сайт. Постепенно изучаю современные фреймворки и углубляюсь в принципы веб-разработки.</p>
                         </div>
                     </li>
                     <li class="skills-list-item skills-list-item--cyan">
@@ -141,7 +144,7 @@
                       <h3>2023</h3>
                   </div>
                   <div class="road__item-desc">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut cumque ea eius excepturi explicabo illo ipsam, labore nisi possimus quis quod similique sunt ullam.`</p>
+                      <p>Поступил в коледж на специальность "информационные системы и програмирование"</p>
                   </div>
               </li>
               <li class="road__list-item">
@@ -243,5 +246,7 @@
 
   </section>
   <script src="assets/scripts/accordion.js"></script>
+  <script type="module" src="assets/scripts/app.js"></script>
+  <script src="assets/scripts/modules/navigation.js"></script>
 </body>
 </html>
