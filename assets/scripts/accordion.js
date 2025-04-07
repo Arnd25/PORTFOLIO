@@ -1,11 +1,11 @@
-const accordionContent = document.querySelectorAll(".skills-list-item");
+const accordionContent = document.querySelectorAll(".about__accordion-item");
 
 accordionContent.forEach((item,index) =>{
-    let header = item.querySelector(".skill-item-name");
+    let header = item.querySelector(".accordion-item-title");
     header.addEventListener("click", ()=> {
         item.classList.toggle("is-open");
 
-        let description = item.querySelector(".skill-item-desc");
+        let description = item.querySelector(".accordion-item-content");
         if (item.classList.contains("is-open")) {
             description.style.height = `${description.scrollHeight}px`;
         } else {
@@ -19,7 +19,7 @@ function removeOpenedContent(index){
     accordionContent.forEach((item2,index2)=> {
         if (index !== index2) {
             item2.classList.remove("is-open");
-            let descrip = item2.querySelector(".skill-item-desc");
+            let descrip = item2.querySelector(".accordion-item-content");
             descrip.style.height="0px"
         }
     })
