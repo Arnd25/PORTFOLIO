@@ -4,11 +4,13 @@
     align-items: center;
     gap: 50px;
     text-align: center;
+    background-color: #17203b;
 }
 .contacts-text {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: white;
 }
 .contacts-desc {
 

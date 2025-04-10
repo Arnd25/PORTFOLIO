@@ -3,7 +3,6 @@
 }
 .about__container {
     display: flex;
-
     gap: 150px;
 }
 .about__text {
@@ -28,14 +27,16 @@
     background: white;
     border-radius: var(--rounded-base);
     width: 500px;
+    height: 100%;
+    align-self: center;
 }
 .about__accordion-item {
     border-radius: var(--rounded-base);
     padding: 15px;
-    background: #ecff73;
+    background: #f9ffba;
     display: flex;
     flex-direction: column;
-    border-left: #6fff00 7px solid;
+    border-left: #94e6ff 6px solid;
     transition: all 0.2s;
     justify-content: center;
 }

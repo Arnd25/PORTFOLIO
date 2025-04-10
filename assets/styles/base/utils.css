@@ -31,7 +31,7 @@
     font-weight: 700;
     line-height: 40px;
     text-transform: uppercase;
-    color: var(--secondary-foreground);
+    color: var(--secondary);
 }
 
 .title-md {

@@ -1,5 +1,8 @@
 .intro {
-    background: #a1f0d3;
+    background-image: url("https://avatars.mds.yandex.net/i?id=67d0e101b6facc5720da5ffeea431792_l-5876168-images-thumbs&n=13");
+    background-size: cover;
+
+    width: 100%;
     height: 600px;
 }
 .intro-text {
